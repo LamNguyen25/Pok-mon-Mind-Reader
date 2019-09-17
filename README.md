@@ -1,4 +1,6 @@
 # Pok-mon-Mind-Reader
+Fun game
+
 
     Each round the computer will make a prediction of which type of Pokémon the user will
 choose, Fire, Water, or Grass. Based on this prediction the computer then chooses a
