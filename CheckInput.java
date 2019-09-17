@@ -138,4 +138,3 @@ public class CheckInput {
 		return 0;
 	}	
 }
-
