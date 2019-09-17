@@ -131,7 +131,6 @@ public class Computer {
             
             }
             else{
-           
                 patterns.put(pt, 1);
             }
                
@@ -151,7 +150,7 @@ public class Computer {
             }
             writer.close();
         }catch(FileNotFoundException fnf ) {
-                System.out.println("File was not found");
+            System.out.println("File was not found");
             
         }
         
