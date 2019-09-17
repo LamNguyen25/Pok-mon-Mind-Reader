@@ -64,7 +64,6 @@ public class Main {
                 default :
                     System.out.println("Invalid choice");
                     break;
-                   
             }
             
         }
@@ -86,12 +85,9 @@ public class Main {
             }
 
            if(userInput.length() == 4){
-                
                 comp.storePattern(userInput);
                 userInput = userInput.substring(1);
-                
             }
-            
             
             switch(Userchoice){
                 case "F":
@@ -100,7 +96,6 @@ public class Main {
                         System.out.println("YOU HAVE FIRE, I HAVE FIRE, WE TIE!");
                         System.out.println("Your score: " + userScore + "  My score: " + compScore);
                         if(userScore == 0 && compScore == 0){
-                            
                             userPercentage = 0;
                             compPercentage = 0;
                         }
