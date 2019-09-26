@@ -14,7 +14,6 @@ import java.util.Scanner;
  *
  * Example:  int num = CheckInput.getInt();
  *
- *
  */
 
 public class CheckInput {
