@@ -46,6 +46,7 @@ public class Computer {
         Pattern pt2 = new Pattern(p + "w");
         Pattern pt3 = new Pattern(p + "g");
         char prediction = ' ';
+
         if(patterns.isEmpty()){
             prediction = alphabet.charAt(r.nextInt(n));
         }
@@ -72,7 +73,6 @@ public class Computer {
                 prediction = alphabet.charAt(r.nextInt(n));
             }
             
-
         }
         else if(patterns.containsKey(pt1) && patterns.containsKey(pt2)){
             if(patterns.get(pt1) > patterns.get(pt2)){
@@ -153,7 +153,6 @@ public class Computer {
             System.out.println("File was not found");
             
         }
-        
         
     }
     /**
